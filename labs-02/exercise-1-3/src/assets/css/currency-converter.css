@@ -1,0 +1,46 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containers {
+    width: 90%;
+}
+
+label {
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+#recipe-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#recipe-form .div-icon {
+    width: 45px !important;
+    height: 45px !important;
+    margin-top: 26px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon-swap {
+    color: blue;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}

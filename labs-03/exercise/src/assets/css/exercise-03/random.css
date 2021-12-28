@@ -1,0 +1,58 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+#container-random {
+    border: 1px solid #ccc;
+    width: 500px;
+    padding: 20px 0 0 0;
+}
+
+.content {
+    display: flex;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.options {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.options span {
+    padding-bottom: 4px;
+}
+
+#min,
+#max {
+    width: 60px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+#generate {
+    margin-top: 12px;
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border: none;
+    background-color: rgb(32, 73, 235);
+    color: #fff;
+}
+
+#generate:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}

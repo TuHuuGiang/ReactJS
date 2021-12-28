@@ -1,0 +1,59 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.shadown-page {
+    box-shadow: 1px 1px 10px rgb(38, 38, 38);
+}
+
+.logoTravel {
+    width: 232px;
+}
+
+.contact {
+    
+}
+
+.phone:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.banner {
+    height: 400px;
+    position: relative;
+}
+
+.banner-img {
+    padding: 0 !important;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.position {
+    position: absolute;
+    top: 30%;
+    left: 13%;
+}
+
+.option {
+    width: 244px !important;
+    height: 124px;
+}
+
+.option:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.location {
+    padding: 0 !important;
+}
+
+.location-img {
+    max-width: 100%;
+    display: block;
+}

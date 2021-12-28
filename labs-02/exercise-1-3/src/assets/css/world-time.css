@@ -1,0 +1,31 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-clock {
+    width: 820px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.clock:not(last-child) {
+    margin: 0 5px 5px 0;
+}
+
+h1 sup {
+    font-size: 22px;
+}

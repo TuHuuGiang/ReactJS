@@ -1,0 +1,27 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+table, th, td {
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    color: #fff;
+    background-color: rgb(24, 67, 238);
+}
+
+tr td:nth-child(1) {
+    font-weight: 500;
+    background-color: rgb(129, 147, 220);
+}
